@@ -12,7 +12,7 @@ export PS1='%n@%m:%F{cyan}%3~%f %% '
 export EDITOR='nvim'
 
 ###########
-# ALIASES	#
+# ALIASES #
 ###########
 alias ll="ls -la"
 alias l="ls"
