@@ -6,11 +6,13 @@ set shiftwidth=2
 set expandtab
 set ai
 
+
 """"""""""
 " SEARCH "
 """"""""""
 set hlsearch
 set ignorecase
+
 
 """"""""
 " MISC "
@@ -18,6 +20,7 @@ set ignorecase
 syntax on
 set number
 set ruler
+
 
 """""""""""
 " COMENTS "
