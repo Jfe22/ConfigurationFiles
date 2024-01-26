@@ -10,10 +10,10 @@ autoload -Uz compinit && compinit
 # COLORS n PROMPT #
 ###################
 function parse_git_branch() {
-    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1] /p'
 }
 setopt PROMPT_SUBST
-export PS1='%n@%m:%F{cyan}%3~%f %F{yellow}$(parse_git_branch)%f %% '
+export PS1='%n@%m:%F{cyan}%3~%f %F{yellow}$(parse_git_branch)%f%% '
 export CLICOLOR=1
 
 
