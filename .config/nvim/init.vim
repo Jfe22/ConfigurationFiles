@@ -22,7 +22,7 @@ set number
 set ruler
 
 
-"""""""""""
-" COMENTS "
-"""""""""""
+""""""""""""
+" COMMENTS "
+""""""""""""
 highlight Comment ctermfg=green
