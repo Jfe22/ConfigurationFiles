@@ -39,5 +39,6 @@ alias gc="git commit"
 alias gpush="git push"
 alias gpull="git pull"
 alias gacp="git add . && git commit -m 'quick auto commit' && git push origin main"
+alias gnb="git checkout -b"
 
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
