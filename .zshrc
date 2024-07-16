@@ -42,3 +42,5 @@ alias gacp="git add . && git commit -m 'quick auto commit' && git push origin ma
 alias gnb="git checkout -b"
 
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+alias caffeinate="caffeinate -i -s -d -m"
